@@ -6,7 +6,7 @@ if resistance <= 0:
     print("Invalid resistance")
 else:
     current = voltage / resistance
-    print(f"Current = {current} A")
+    print("Current =", current, "A")
     if current > 2:
         print("Fuse will blow")
     else:

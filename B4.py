@@ -19,6 +19,6 @@ for index in range(1, len(voltages)):
     else:
         current_streak = 1
 
-print(f"Longest continuous drop: {longest_streak} minutes")
-print(f"Started at: {longest_start} V")
-print(f"Ended at: {longest_end} V")
+print("Longest continuous drop:", longest_streak, "minutes")
+print("Started at:", longest_start, "V")
+print("Ended at:", longest_end, "V")

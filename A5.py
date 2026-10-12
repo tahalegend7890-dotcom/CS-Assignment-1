@@ -17,5 +17,5 @@ elif resistor_2 >= resistor_1 and resistor_2 >= resistor_3:
 else:
     largest = resistor_3
 
-print(f"Smallest = {smallest:g} ohm")
-print(f"Largest = {largest:g} ohm")
+print("Smallest =", smallest, "ohm")
+print("Largest =", largest, "ohm")

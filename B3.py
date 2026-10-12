@@ -17,7 +17,7 @@ for reading in readings:
     reading_count += 1
 
 average = total / reading_count
-print(f"Readings above 3.2 V: {above_threshold}")
-print(f"Highest: {highest:.1f} V")
-print(f"Lowest: {lowest:.1f} V")
-print(f"Average: {average:.2f} V")
+print("Readings above 3.2 V:", above_threshold)
+print("Highest:", round(highest, 1), "V")
+print("Lowest:", round(lowest, 1), "V")
+print("Average:", round(average, 2), "V")

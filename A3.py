@@ -1,4 +1,4 @@
-# Convert a resistor's first band colour to its digit.
+# Convert a resistor's first-band colour to its digit.
 colour = input("Enter band colour: ").strip().lower()
 
 if colour == "black":
@@ -27,4 +27,4 @@ else:
 if digit is None:
     print("Invalid colour")
 else:
-    print(f"Digit = {digit}")
+    print("Digit =", digit)

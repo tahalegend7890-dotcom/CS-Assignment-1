@@ -3,4 +3,4 @@ resistance = 10
 
 for voltage in range(1, 11):
     current = voltage / resistance
-    print(f"V = {voltage} V, I = {current:.1f} A")
+    print("V =", voltage, "V, I =", round(current, 1), "A")

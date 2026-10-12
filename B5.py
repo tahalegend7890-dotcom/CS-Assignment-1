@@ -15,6 +15,6 @@ while True:
     else:
         reject_count += 1
 
-print(f"1% tolerance: {one_percent_count}")
-print(f"5% tolerance: {five_percent_count}")
-print(f"Reject: {reject_count}")
+print("1% tolerance:", one_percent_count)
+print("5% tolerance:", five_percent_count)
+print("Reject:", reject_count)

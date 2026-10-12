@@ -6,4 +6,4 @@ for resistor_number in range(1, resistor_count + 1):
     resistance = float(input(f"Enter R{resistor_number}: "))
     total_resistance += resistance
 
-print(f"Total resistance = {total_resistance:g} ohm")
+print("Total resistance =", total_resistance, "ohm")
